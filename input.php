@@ -56,7 +56,7 @@
     </style>
 </head>
 <body>
-    <form action="write.php" method="post">
+    <form action="./write.php" method="post">
         お名前: <input type="text" name="name" placeholder="例：ジーズ太郎">
         商品名: <input type="text" name="beername" placeholder="例：一番搾り">
         メーカー: <input type="text" name="maker" placeholder="例：キリン">

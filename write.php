@@ -12,7 +12,7 @@ $time = date('Y-m-d H:i:s');
 $data = $time . '/' . $name . '/' . $beername . '/'.  $maker . '/' .  $place .'/' .  $comment . "\n";
 
 // 第３引数に、FILE_APPENDしないと上書きされちゃう
-file_put_contents('data/data.txt', $data, FILE_APPEND);
+file_put_contents('./data/data.txt', $data, FILE_APPEND);
 ?>
 
 <html>
@@ -25,8 +25,8 @@ file_put_contents('data/data.txt', $data, FILE_APPEND);
 
     <h1>書き込みありがとうございます！</h1>
     <ul>
-        <li><a href="read.php">皆さんの書き込みはこちら！</a></li>
-        <li><a href="input.php">戻る</a></li>
+        <li><a href="./read.php">皆さんの書き込みはこちら！</a></li>
+        <li><a href="./input.php">戻る</a></li>
     </ul>
 </body>
 
