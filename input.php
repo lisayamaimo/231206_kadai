@@ -10,6 +10,7 @@
             background-repeat: no-repeat;
             margin: 0;
             padding: 20px;
+            min-height: 100vh; /* ビューポートの高さに合わせる */
         }
 
         form {
