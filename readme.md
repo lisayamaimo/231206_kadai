@@ -3,7 +3,6 @@
 ## DEMO
 
 https://kani-nuneno.sakura.ne.jp/231206_kadai/input.php
-でも遷移がうまくいかない...！たぶんリンクがうまく機能していない。
 
 ## 紹介と使い方
 
@@ -18,7 +17,7 @@ https://kani-nuneno.sakura.ne.jp/231206_kadai/input.php
 
 デプロイ
 ・さくらサーバー設定からデプロイまでできた
-・遷移がうまくいっていないので要確認
+・遷移がうまくいっていないので要確認→リンクの貼り方を「xxxx.php」→「./xxxx.php」にしたらうまくいった！
 
 css
 ・ビールっぽいグラデーションで作成
